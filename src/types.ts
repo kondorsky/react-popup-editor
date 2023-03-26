@@ -119,7 +119,7 @@ export interface TextEditor {
 
 export type Translations = Record<string, Record<string, string>>;
 
-export type DisplayMode = 'email' | 'web';
+export type DisplayMode = 'email' | 'web' | 'popup';
 export interface UnlayerOptions {
   id?: string | undefined;
   displayMode?: DisplayMode | undefined;
