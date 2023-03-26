@@ -48,7 +48,7 @@ export const EmailEditor = React.forwardRef<EditorRef, EmailEditorProps>(
         unlayer.createEditor({
           ...options,
           id: editorId.current,
-          displayMode: 'email',
+          displayMode: 'popup',
           source: {
             name: pkg.name,
             version: pkg.version,
